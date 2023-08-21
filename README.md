@@ -107,3 +107,22 @@ to create:
     print("")
     print("---------------------------------------------------------")
     print("")
+
+
+In the section editing the box plots, I borrowed from this website:
+
+    https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xticks.html
+
+the way of changing x-ticks to create:
+
+    plt.xticks ([1,2,3,4], promising_treatments)
+
+
+In the section editing the box plots, I borrowed from this website:
+
+    https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html
+
+the way of changing x-ticks to create:
+
+    plt.boxplot (tumor_vol_data, 0, 'r*')
+    
