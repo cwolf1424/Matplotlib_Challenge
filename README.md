@@ -37,6 +37,17 @@ the way of changing width to create:
 
 chart_df_bar1 = chart_df.plot (kind="bar", title="Rows of Data Per Regimen", legend=False, width=.75)
 
+
+
+In the section creating the first pie chart (using pandas), I borrowed from this website:
+
+https://www.plus2net.com/python/pandas-dataframe-plot-pie.php
+
+the way of adding percents to create:
+
+autopct='%1.1f%%'
+
+
 --------------------------------------------------
 
 --------------------------------------------------
