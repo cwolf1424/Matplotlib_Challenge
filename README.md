@@ -1,7 +1,9 @@
 # Matplotlib_challenge
 Challenge assignment for Matplotlib
 
-In this challenge...
+In this challenge, I again utilized the formatting and sample code for the provided starter code throughout, adding sections and sub-sections for clarity.
+
+Some sections inspired by/utilyzing code from elsewhere are noted below:
 
 --------------------------------------------------
 Setup
