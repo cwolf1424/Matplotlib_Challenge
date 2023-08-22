@@ -126,6 +126,28 @@ the way of changing x-ticks to create:
 
     plt.boxplot (tumor_vol_data, 0, 'r*')
 
+--------------------------------------------------
+Correlation and Regression
+--------------------------------------------------
+In the section running the regression, I borrowed from week 5 class 3 activity "08-Ins_Fits_and_Regression" solved file:
 
-TEST
+    (slope, intercept, rvalue, pvalue, stderr) = linregress(x_values, y_values)
+
+the way of labeling intercept values:
+
+    (slope, intercept, rvalue, pvalue, stderr) = linregress (capomulin_weight_volume_df["Weight (g)"],capomulin_weight_volume_df["Average Tumor Volume (mm3)"])
+
+and:
+    regress_values = x_values * slope + intercept
+
+the way of finding regression y-values:
+
+    tumor_values = capomulin_weight_volume_df["Weight (g)"] * slope + intercept
+
+and:
+    plt.plot(x_values,regress_values,"r-")
     
+the way of plotting the regression line:
+
+    plt.plot(capomulin_weight_volume_df["Weight (g)"],tumor_values,"r-")
+
